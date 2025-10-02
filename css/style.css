@@ -13,49 +13,24 @@ header {
     background-color: #FCF5EB;
     border: solid 1px #FCF5EB;
 }
-.logo {
-    display: inline;
-    width: 40%;
-}
-
-header img {
-    display: inline;
-}   
-header form {
-    display: inline;
-    margin: 0 0 200px 0;
-    width: 30%;
-    text-indent: 0.5%;
-    align-items: center;
-}
-.buscador {
-    display: inline;
-    margin: 0 0 50px 0;;
-}
-.busqueda {
-    display: inline;
-    width: 10%;
-    justify-content: space-between;
-}
-.usuario-carrito {
-    display: inline;
-    width: 20%;
-    text-align: right;
-    margin: 0 0 0 100px;
-}
-div ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-between
-}
-div ul li {
-    padding: 10px;
+.botonHeader {
+    background-color: rgb(252, 245, 235);
+    color: #3B9ABF;
+    border: 2px solid rgb(22 85 109);
+    cursor: pointer;
     font-weight: bold;
-    justify-content: space-around;
+    border-radius: 10px;
+    width: 100px;
+}
+.fondoNav {
+    background-color:#FCF5EB ;
 
 }
+.navbar-nav a{
+    justify-content: space-around;
+    color: #3B9ABF;
+    width: 100%;
+}   
 h1 {
     text-align: center;
     color: #FCF5EB;
