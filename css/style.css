@@ -58,11 +58,18 @@ div ul li {
 }
 h1 {
     text-align: center;
+    color: #FCF5EB;
 }
 main {
     background-color: #117DBF;
     text-indent: 1%;
     padding: 0 0 0.5px 0;
+}
+main p{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    color: #FCF5EB;
 }
 /*Articulos inicio*/
 article {
@@ -92,6 +99,13 @@ main section {
 .card-body {
     text-align: center;
     background-color: #3f9cd6;
+}
+/*Medios de pago, carrucel con Bootstrap*/
+.carousel-inner {
+    border: solid 2px #3B9ABF;
+    border-radius: 10px;
+    margin: 5% 25%;
+    width: 50%;
 }
 footer {
     background-color: #FCF5EB;
