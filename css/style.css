@@ -64,6 +64,7 @@ main {
     text-indent: 1%;
     padding: 0 0 0.5px 0;
 }
+/*Articulos inicio*/
 article {
     width: fit-content;
     background-color: #3f9cd6;
@@ -79,6 +80,18 @@ article button {
     border: solid 2px #3B9ABF;
     cursor: pointer;
     font-weight: bold;
+}
+/*Articulos productos con Bootstrap*/
+main section {
+    background-color: #117DBF;
+    padding: 20px;
+    border: solid 1px #117DBF;
+    border-radius: 5px;
+    margin: 20px;
+}
+.card-body {
+    text-align: center;
+    background-color: #3f9cd6;
 }
 footer {
     background-color: #FCF5EB;
