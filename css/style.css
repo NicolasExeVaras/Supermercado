@@ -9,6 +9,7 @@ a {
     text-decoration: none;
     color: #3B9ABF;
 }
+/*Estilos del header y nav*/
 header {
     background-color: #FCF5EB;
     border: solid 1px #FCF5EB;
@@ -30,11 +31,12 @@ header {
     justify-content: space-around;
     color: #3B9ABF;
     width: 100%;
-}   
+}
+/*estilo de Main*/
 h1 {
     text-align: center;
     color: #FCF5EB;
-}
+}   
 main {
     background-color: #117DBF;
     text-indent: 1%;
@@ -82,13 +84,6 @@ main section {
     margin: 5% 25%;
     width: 50%;
 }
-footer {
-    background-color: #FCF5EB;
-    text-indent: 1%;   
-}
-footer p {
-    color: #3B9ABF;
-}
 .ofertas {
     text-decoration-line: underline;
     font-size: 25px;
@@ -115,4 +110,27 @@ nav  {
 }
 .productos-totales {
     text-transform: capitalize;
+}
+footer {
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: #FCF5EB;
+}
+footer p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    width: 80%;
+    color: #3B9ABF;
+}
+footer img{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 15%;
 }
