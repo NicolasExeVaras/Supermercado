@@ -1,0 +1,26 @@
+a {
+	text-decoration: none;
+	color: $color_1;
+}
+header {
+	background-color: $background-color_1;
+	border: solid 1px #FCF5EB;
+}
+.botonHeader {
+	@include boton-estilo($background-color_1, $color_1, rgb(22, 85, 109));
+	width: 100px;
+}
+.fondoNav {
+	background-color: $background-color_1;
+}
+.navbar-nav {
+	a {
+		justify-content: space-around;
+		color: $color_1;
+		width: 100%;
+	}
+}
+h1 {
+	text-align: center;
+	color: $color_2;
+}
