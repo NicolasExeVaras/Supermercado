@@ -1,6 +1,6 @@
+@import 'mixins';
 @import 'variables';
 @import 'header';
-
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +8,7 @@
 }
 
 main {
-	background-color: $background-color_3;
+	background-color: transparent;
 	text-indent: 1%;
 	padding: 0 0 0.5px 0;
 	p {
@@ -40,6 +40,24 @@ main {
 		background-color: $background-color_5;
 		color: $color_2;
 	}
+}
+.btn-primary {
+	transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+	transform: scale(1.1);
+}
+.botonHeader {
+	transition: all 0.3s ease;
+}
+.botonHeader:hover {
+	transform: scale(1.1);
+}
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #117DBF 0%, #3B9ABF 80%, #FCF5EB 100%);
+  margin: 0;
 }
 .carousel-inner {
 	border: solid 2px #3B9ABF;

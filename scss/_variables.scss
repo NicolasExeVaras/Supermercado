@@ -5,17 +5,3 @@ $background-color_2: rgb(252, 245, 235);
 $background-color_3: #117DBF;
 $background-color_4: #3f9cd6;
 $background-color_5: #3B9ABF;
-
-@mixin boton-estilo($bg, $color, $borde) {
-  background-color: $bg;
-  color: $color;
-  border: 2px solid $borde;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 10px;
-
-  &:hover {
-    background-color: $color;
-    color: $bg;
-  }
-}

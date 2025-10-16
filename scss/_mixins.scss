@@ -1,0 +1,13 @@
+@mixin boton-estilo($bg, $color, $borde) {
+  background-color: $bg;
+  color: $color;
+  border: 2px solid $borde;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: $color;
+    color: $bg;
+  }
+}

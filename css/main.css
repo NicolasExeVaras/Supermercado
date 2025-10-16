@@ -6,6 +6,7 @@ a {
 header {
   background-color: #FCF5EB;
   border: solid 1px #FCF5EB;
+  background: linear-gradient(135deg, #3B9ABF 0%, #FCF5EB 100%);
 }
 
 .botonHeader {
@@ -22,6 +23,17 @@ header {
 }
 .botonHeader {
   width: 100px;
+}
+
+.navbar-nav a {
+  color: #3B9ABF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: rgb(34.928, 91.168, 113.072);
+  font-size: 1.2rem;
 }
 
 .fondoNav {
@@ -46,7 +58,7 @@ h1 {
 }
 
 main {
-  background-color: #117DBF;
+  background-color: transparent;
   text-indent: 1%;
   padding: 0 0 0.5px 0;
 }
@@ -89,6 +101,28 @@ main section {
 .btn:hover {
   background-color: #3B9ABF;
   color: #FCF5EB;
+}
+
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+.botonHeader {
+  transition: all 0.3s ease;
+}
+
+.botonHeader:hover {
+  transform: scale(1.1);
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #117DBF 0%, #3B9ABF 80%, #FCF5EB 100%);
+  margin: 0;
 }
 
 .carousel-inner {

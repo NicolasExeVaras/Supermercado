@@ -5,10 +5,20 @@ a {
 header {
 	background-color: $background-color_1;
 	border: solid 1px #FCF5EB;
+	background: linear-gradient(135deg, #3B9ABF 0%, #FCF5EB 100%);
 }
 .botonHeader {
 	@include boton-estilo($background-color_1, $color_1, rgb(22, 85, 109));
 	width: 100px;
+}
+.navbar-nav a {
+	color: $color_1;
+	text-decoration: none;
+	transition: all 0.3s ease;   
+}
+.navbar-nav a:hover {
+	color: darken($color_1, 20%);
+	font-size: 1.2rem;
 }
 .fondoNav {
 	background-color: $background-color_1;
